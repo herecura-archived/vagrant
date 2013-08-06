@@ -1,0 +1,17 @@
+pkgbase = vagrant
+	pkgdesc = Tool for building and distributing virtualized development environments
+	pkgver = 1.2.7
+	pkgrel = 1
+	url = http://vagrantup.com/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	options = !strip
+	source = http://files.vagrantup.com/packages/7ec0ee1d00a916f80b109a298bab08e391945243/vagrant_1.2.7_.rpm
+	source = zsh-vagrant
+	source = bash-vagrant
+	md5sums = dd7605a4a60732d9c1715cab9b93e120
+	md5sums = c41db06a3282b89aed96ad37b76c69b2
+
+pkgname = vagrant
+
