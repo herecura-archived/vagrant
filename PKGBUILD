@@ -3,7 +3,7 @@
 # Contributor: helios <aur@wiresphere.de>
 pkgname=vagrant
 pkgver=1.7.2
-pkgrel=3
+pkgrel=4
 pkgdesc="Tool for building and distributing virtualized development environments"
 arch=('i686' 'x86_64')
 url="http://vagrantup.com/"

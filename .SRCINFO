@@ -1,7 +1,7 @@
 pkgbase = vagrant
 	pkgdesc = Tool for building and distributing virtualized development environments
 	pkgver = 1.7.2
-	pkgrel = 3
+	pkgrel = 4
 	url = http://vagrantup.com/
 	arch = i686
 	arch = x86_64
