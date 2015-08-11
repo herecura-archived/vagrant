@@ -1,21 +1,19 @@
 pkgbase = vagrant
 	pkgdesc = Tool for building and distributing virtualized development environments
-	pkgver = 1.7.3
+	pkgver = 1.7.4
 	pkgrel = 1
 	url = http://vagrantup.com/
 	arch = i686
 	arch = x86_64
 	license = MIT
 	optdepends = net-tools: NFS shared folder support
-	noextract = vagrant_1.7.3_i686.rpm
-	noextract = vagrant_1.7.3_x86_64.rpm
 	options = !strip
-	source = https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.3_i686.rpm
-	source = https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.3_x86_64.rpm
 	source = zsh-vagrant
-	sha256sums = 052e4c48f27a2491a3072a833724019a0ce50e2aa988ea56a71ba005e539b912
-	sha256sums = ce7e47f7e1761fd57383f6c07d93961efa9076790e9de470b44a0795bc739baf
 	sha256sums = e859db50cf6cf15b4fbde37a8528fe1191585c8961c28494d428394ccce54db2
+	source_i686 = https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.4_i686.rpm
+	sha256sums_i686 = f83ea56f8d1a37f3fdf24dd4d14bf8d15545ed0e39b4c1c5d4055f3de6eb202d
+	source_x86_64 = https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.4_x86_64.rpm
+	sha256sums_x86_64 = b0a09f6e6f9fc17b01373ff54d1f5b0dc844394886109ef407a5f1bcfdd4e304
 
 pkgname = vagrant
 
