@@ -2,7 +2,7 @@
 # Contributor: Mathieu Clabaut <mathieu.clabaut@gmail.com>
 # Contributor: helios <aur@wiresphere.de>
 pkgname=vagrant
-pkgver=1.8.0
+pkgver=1.8.1
 pkgrel=1
 pkgdesc="Tool for building and distributing virtualized development environments"
 arch=('i686' 'x86_64')
@@ -16,8 +16,8 @@ source=(
 	'zsh-vagrant'
 )
 sha256sums=('e859db50cf6cf15b4fbde37a8528fe1191585c8961c28494d428394ccce54db2')
-sha256sums_i686=('4af248fdd165585d12eb30869a27746ed88f30a5164cee7ff0245273783d1426')
-sha256sums_x86_64=('5e5af64f94dcab318c157754bb1fc8598ea593d741a711a6fb8ddf18e65c2acc')
+sha256sums_i686=('8a5773f52039addea0830efea18f127dcdff7f649699bbce3672c43da1e51a92')
+sha256sums_x86_64=('d2b2308cb1a7da656f6f7cd926287cd21f3c79bf29bc15f09d7471a93f1ef118')
 
 package() {
 	mv $srcdir/{opt,usr} $pkgdir
