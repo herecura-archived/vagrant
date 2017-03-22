@@ -3,13 +3,13 @@
 # Contributor: helios <aur@wiresphere.de>
 pkgname=vagrant
 pkgver=1.9.3
-pkgrel=1
+pkgrel=2
 pkgdesc="Tool for building and distributing virtualized development environments"
 arch=('i686' 'x86_64')
 url="http://vagrantup.com/"
 license=('MIT')
 options=(!strip)
-optdepends=('net-tools: NFS shared folder support')
+depends=('net-tools')
 source_i686=("https://releases.hashicorp.com/$pkgname/$pkgver/${pkgname}_${pkgver}_i686.rpm")
 source_x86_64=("https://releases.hashicorp.com/$pkgname/$pkgver/${pkgname}_${pkgver}_x86_64.rpm")
 source=(
